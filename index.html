@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deep Pathak | Mechanical Engineer</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
-    <script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script>
         tailwind.config = {
             theme: {
                 extend: {
@@ -23,23 +25,23 @@
         }
     </script>
 </head>
-<body class="bg-light text-dark font-sans antialiased">
+<body class="text-dark font-sans antialiased">
+    <div id="particles-js"></div>
     <custom-navbar></custom-navbar>
-    
-    <main class="container mx-auto px-4 py-8">
+<main class="container mx-auto px-4 py-8">
         <!-- Hero Section -->
-        <section class="min-h-screen flex flex-col justify-center items-center text-center py-20">
-            <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-primary/20 mb-6">
-                <img src="https://huggingface.co/spaces/DeepPathak/mechanical-marvels-green-bear-gears/resolve/main/images/1722541221997.jpg" alt="Deep Pathak" class="w-full h-full object-cover">
+        <section class="min-h-screen flex flex-col justify-center items-center text-center py-20 animate-fadeInUp">
+            <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 mb-8 shadow-lg">
+<img src="https://huggingface.co/spaces/DeepPathak/mechanical-marvels-green-bear-gears/resolve/main/images/1722541221997.jpg" alt="Deep Pathak" class="w-full h-full object-cover">
             </div>
-<h1 class="text-5xl font-bold mb-4">Deep Pathak</h1>
+<h1 class="text-5xl font-bold mb-4">DEEP PATHAK</h1>
             <h2 class="text-2xl text-secondary mb-8">Mechanical Engineer | CAD | FEA</h2>
-            <p class="text-xl max-w-2xl mb-8">Passionate about Mechanical Engineering, CAD, FEA and Machine Learning. Currently working as a Mechanical Engineering Intern at Nuventura.</p>
-            <div class="flex gap-4">
-                <a href="#projects" class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg transition-all">View Projects</a>
-                <a href="#contact" class="border-2 border-primary text-primary hover:bg-primary/10 px-6 py-3 rounded-lg transition-all">Contact Me</a>
+            <p class="text-xl max-w-2xl mb-8">Passionate about Mechanical Engineering, CAD, FEA and Programming. Currently working as a Mechanical Engineering Intern at Nuventura.</p>
+            <div class="flex gap-4 mt-8">
+                <a href="#projects" class="btn btn-primary animate-bounce">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
             </div>
-        </section>
+</section>
 
         <!-- About Section -->
         <section id="about" class="py-20">
@@ -47,7 +49,7 @@
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <p class="text-lg mb-6">I'm a passionate mechanical engineer with expertise in CAD design, finite element analysis (FEA), and computational fluid dynamics (CFD). My work focuses on solving real-world engineering problems through simulation and design optimization.</p>
-                    <p class="text-lg mb-6">Currently interning at Nuventura, I apply my skills to develop innovative mechanical solutions while continuously expanding my knowledge in machine learning applications for engineering. I'm also proud to be part of the <a href="https://greenbear.berlin/#" target="_blank" class="text-secondary hover:underline">Green Bear</a> Formula Student team at HTW Berlin, where we design and build electric race cars.</p>
+                    <p class="text-lg mb-6">Currently interning at Nuventura, I apply my skills to develop innovative mechanical solutions while continuously expanding my knowledge in programming applications for engineering. I'm also proud to be part of the <a href="https://greenbear.berlin/#" target="_blank" class="text-secondary hover:underline">Green Bear</a> Formula Student team at HTW Berlin, where we design and build electric race cars.</p>
 <div class="flex gap-4">
                         <a href="https://www.linkedin.com/in/deep-pathak-502918175/" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg flex items-center gap-2">
                             <i data-feather="linkedin"></i> LinkedIn
@@ -100,6 +102,22 @@
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/640px-Matlab_Logo.png" alt="MATLAB" class="h-12 mb-2">
                             <span>MATLAB</span>
                         </div>
+                        <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg">
+                            <img src="https://huggingface.co/spaces/DeepPathak/mechanical-marvels-green-bear-gears/resolve/main/images/matplotlib.png" alt="Matplotlib" class="h-12 mb-2">
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg">
+                            <img src="https://huggingface.co/spaces/DeepPathak/mechanical-marvels-green-bear-gears/resolve/main/images/pandas.png" alt="Pandas" class="h-12 mb-2">
+                            <span>Pandas</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg">
+                            <img src="https://huggingface.co/spaces/DeepPathak/mechanical-marvels-green-bear-gears/resolve/main/images/Numpy.png" alt="NumPy" class="h-12 mb-2">
+                            <span>NumPy</span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg">
+                            <img src="https://huggingface.co/spaces/DeepPathak/mechanical-marvels-green-bear-gears/resolve/main/images/pytorch.png" alt="PyTorch" class="h-12 mb-2">
+                            <span>PyTorch</span>
+                        </div>
                     </div>
 </div>
             </div>
@@ -118,11 +136,11 @@
                     <h3 class="text-2xl font-bold mb-2">Embedded Air Quality Measurement System</h3>
                     <p class="text-lg mb-4">Developed an embedded system to monitor and report Air Quality Index (AQI) using sensor data including PM1.0, PM2.5, PM10.0, temperature, and humidity measurements.</p>
                     <div class="flex gap-2 flex-wrap mb-4">
-                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Embedded Systems</span>
-                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Sensors</span>
-                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Data Analysis</span>
+                        <span class="skill-badge">Embedded Systems</span>
+                        <span class="skill-badge">Sensors</span>
+                        <span class="skill-badge">Data Analysis</span>
                     </div>
-                    <a href="https://github.com/Deeppathak/Embedded-Air-Quality-Measurement-System" target="_blank" class="inline-flex items-center text-secondary hover:text-secondary/80">
+<a href="https://github.com/Deeppathak/Embedded-Air-Quality-Measurement-System" target="_blank" class="inline-flex items-center text-secondary hover:text-secondary/80">
                         <i data-feather="github" class="mr-2"></i> View on GitHub
                     </a>
                 </div>
@@ -201,7 +219,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Contact Section -->
         <section id="contact" class="py-20 bg-primary/5 rounded-xl px-8">
             <h2 class="text-3xl font-bold mb-12 text-center">Get In Touch</h2>
@@ -223,10 +240,10 @@
                 </form>
                 <div class="mt-12 text-center">
                     <p class="text-lg mb-4">Or reach out directly:</p>
-                    <a href="mailto:deeppathak2603@gmail.com" class="text-secondary hover:text-secondary/80 text-lg">Pathak</a>
+                    <a href="mailto:pathakdeep31@gmail.com" class="text-secondary hover:text-secondary/80 text-lg">pathakdeep31@gmail.com</a>
                 </div>
-<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+    <script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
